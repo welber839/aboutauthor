@@ -1,0 +1,185 @@
+.intro {
+    width:1263px;
+    margin:0px auto;
+    margin-top:50px;
+    min-height:3900px;
+}
+
+.intro .introduction {
+    height:100%;
+    float:left;
+   /* position: sticky;
+    top:0;*/
+    width:950px;
+    margin-left:50px;
+}
+
+.bigHead {
+    float:left;
+    margin:0px 50px 50px 0px; 
+    width:200px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.introduction  p {
+    line-height: 200%;
+    font-size: 1.2rem;
+}
+
+hr {
+    border-top: 3px dotted gray;
+}
+
+
+/*////////////////////////////////////////////設定aside的樣式//////////////////////////////////*/
+
+aside {
+    min-height:500px;
+    float:right;
+    position: sticky;
+    /*border:1px solid black;*/
+    width:200px;
+    top:140px;
+    line-height: 12px;
+    font-weight: bold;
+    font-size: 1.5rem;
+} 
+
+
+.asideBox {
+    position:sticky;
+    top:0;
+}
+
+
+aside ul{
+    margin:0px;
+    height:400px;
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+} 
+
+.listItem {
+    list-style-type: "⇨ ";
+}
+
+.listItem:hover {
+    cursor: pointer;
+}
+
+/*////////////////////////////////////////////設定2nd-para的樣式//////////////////////////////////*/
+
+.second-box {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    break-inside: avoid;
+}
+
+.second-box > div {
+    box-shadow: 0 0 5px black;
+}
+
+.second-box ol li {
+    line-height: 1.8rem;
+}
+
+.second-box h3 {
+    padding-left:23px;
+    color:rgb(136, 136, 136);
+    font-size: 1.5rem;
+}
+
+/*////////////////////////////////////////////設定3rd-para的樣式//////////////////////////////////*/
+
+.third-para > div{
+    width:100%;
+}
+
+.third-para h3 {
+    font-size: 1.5rem;
+    color:rgb(70, 184, 255);
+    text-shadow:1px 1px 0px rgb(8, 84, 131);
+}
+
+.title-para {
+    color:rgb(136, 136, 136);
+    font-weight: bold;
+}
+/*////////////////////////////////////////////設定4th-para的樣式//////////////////////////////////*/
+
+.forth-para > div{
+    font-size: 1.2rem;
+    width:100%;
+    height:50px;
+    margin-bottom:20px;
+    display:flex;
+    align-items: center;
+}
+
+.forth-para img {
+    height:100%;
+}
+
+/*////////////////////////////////////////////設定5th-para的樣式//////////////////////////////////*/
+
+.fifth-box {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 10px;
+    break-inside: avoid;
+    line-height: 3rem;
+    font-size: 1.2rem;
+}
+
+.fifth-box li::marker{
+    font-weight: bold;
+    text-shadow: 1px 1px 0 grey;
+}
+
+/*////////////////////////////////////////////設定6th-para的樣式//////////////////////////////////*/
+
+.sixth-para > div {
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+}
+.img-box {
+    box-shadow: 0 0 2px black;
+}
+
+.poster img:hover {
+    width:350px;
+}
+
+.sixth-box2 span {
+    color:red;
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.downloadItems:link, .downloadItems:visited{
+    color:blue;
+}
+
+.downloadItems:hover{
+    font-weight:bold;
+    color:blue;
+}
+
+/*////////////////////////////////////////////設定7th-para的樣式//////////////////////////////////*/
+
+.seventh-para > div{
+    width:100%;
+}
+
+.seventh-para h3 {
+    font-size: 1.5rem;
+    color:rgb(70, 184, 255);
+    text-shadow:1px 1px 0px rgb(8, 84, 131);
+}
+
