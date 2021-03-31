@@ -183,3 +183,6 @@ aside ul{
     text-shadow:1px 1px 0px rgb(8, 84, 131);
 }
 
+.para {
+    min-height:0px;
+}
